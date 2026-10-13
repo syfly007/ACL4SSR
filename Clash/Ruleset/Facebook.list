@@ -1,12 +1,23 @@
 # 内容：Facebook
-# 数量：21条
+# 数量：32条
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,fbmessenger.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
 IP-CIDR,31.13.24.0/21,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,45.64.40.0/22,no-resolve
