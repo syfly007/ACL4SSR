@@ -1,0 +1,28 @@
+dns:
+  enable: true
+  ipv6: false
+  use-system-hosts: false
+  respect-rules: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "localhost"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - "https://223.5.5.5/dns-query"
+    - "https://doh.pub/dns-query"
+  nameserver-policy:
+    "+.quandao.com":
+      - "https://api-d.dohcore.com:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+      - "https://108.62.161.127:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+      - "https://api-d.cloudflare-lab.com:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+      - "https://43.164.128.66:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+    "+.jiandaoyun.com":
+      - "https://api-d.dohcore.com:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+      - "https://108.62.161.127:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+      - "https://api-d.cloudflare-lab.com:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
+      - "https://43.164.128.66:2096/dns-query/cea94ca3-26cc-474f-8bfb-07cd0ff9f2b0#skip-cert-verify=true"
